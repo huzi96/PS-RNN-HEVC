@@ -11,7 +11,7 @@ The paper is also available at <url>https://arxiv.org/abs/1807.02232</url>.
 The implementation is based on HEVC Test Model (HM) 16.15. We implement PS-RNN models using TensorFlow Library (v1.12), and the model is integrated into the codec using libtensorflow (C API).
 
 ## Build
-We currently support buiding on Linux. To automatically build the executables, please first enter ```build/linux ```. In that directory, run
+We currently support building on Linux. To automatically build the executables, please first enter ```build/linux ```. In that directory, run
 
 ``` CPLUS_INCLUDE_PATH=$PWD/../../extern/include:$CPLUS_INCLUDE_PATH make```
 
